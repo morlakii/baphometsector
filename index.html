@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="icon" type="image/png" href="p5.png" />
+		<meta property="og:image" content="http://baphometsector.com/thumbnail.png" />
+		<meta property="og:title" content="Baphomet Sector" />
+		<meta property="og:site_name" content="Baphomet Sector" />
+		<meta property="fb:admins" content="temp.bobcat" />
+
+		<title>Baphomet Sector</title>
+
+		<script src="territory.js" type="text/javascript"></script>
+		<script type="text/javascript">window.onload = onLoad;</script>
+		
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<link rel="stylesheet" media='screen and (max-width: 1080px)' type="text/css" href="phone.css">
+		
+		<!--<style> body{background-image:url("bg.jpg"); </style>-->
+		
+		<nav id="top">
+			Baphomet Sector |
+			<a href="players.html">Generals</a> |
+			<a href="decrees.html">Decrees</a> |
+			<a href="bonuses.html">Relics</a> |
+			<a href="archive.html">Archive</a>
+		</nav>
+	</head>
+
+	<body id='spacebg'>
+		<div class="overview">
+			<div id="dialogoverlay" onclick=Alert.ok()></div>
+			<div id="dialogbox" onclick=Alert.ok()>
+				<div>
+					<div id="dialogboxhead"></div>
+					<div id="dialogboxbody"></div>
+					<div id="dialogboxbonusdescription"></div>
+					<div id="dialogboxfoot"></div>
+				</div>
+			</div>
+
+			<div id="p1_div" class="sector p1">
+				<img id="p1" onclick=Alert.planetRender(sector.p1) class="sector"></img>
+				<p id="p1_title" onclick=Alert.planetRender(sector.p1) class="ptitle1">Baphomet Prime</p>
+				<img id="p1z1" onclick=Alert.zoneRender(sector.p1.z1) class="z1"></img>
+				<img id="p1z2" onclick=Alert.zoneRender(sector.p1.z2) class="z2"></img>
+				<img id="p1z3" onclick=Alert.zoneRender(sector.p1.z3) class="z3"></img>
+				<img id="p1z4" onclick=Alert.zoneRender(sector.p1.z4) class="z4"></img>
+			</div>
+			<div id="p2_div" class="sector p2" >
+				<img id="p2" onclick=Alert.planetRender(sector.p2) class="sector"></img>
+				<p id="p2_title" onclick=Alert.planetRender(sector.p2) class="ptitle2">Mithras</p>
+				<img id="p2z1" onclick=Alert.zoneRender(sector.p2.z1) class="z1"></img>
+				<img id="p2z2" onclick=Alert.zoneRender(sector.p2.z2) class="z2"></img>
+				<img id="p2z3" onclick=Alert.zoneRender(sector.p2.z3) class="z3"></img>
+				<img id="p2z4" onclick=Alert.zoneRender(sector.p2.z4) class="z4"></img>
+			</div>
+			<div id="p3_div" class="sector p3">
+				<img id="p3" onclick=Alert.planetRender(sector.p3) class="sector"></img>
+				<p id="p3_title" onclick=Alert.planetRender(sector.p3) class="ptitle3">Aleister</p>
+				<img id="p3z1" onclick=Alert.zoneRender(sector.p3.z1) class="z1"></img>
+				<img id="p3z2" onclick=Alert.zoneRender(sector.p3.z2) class="z2"></img>
+				<img id="p3z3" onclick=Alert.zoneRender(sector.p3.z3) class="z3"></img>
+				<img id="p3z4" onclick=Alert.zoneRender(sector.p3.z4) class="z4"></img>
+			</div>
+			<div id="p4_div" class="sector p4">
+				<img id="p4" onclick=Alert.planetRender(sector.p4) class="sector"></img>
+				<p id="p4_title" onclick=Alert.planetRender(sector.p4) class="ptitle4">Gnost</p>
+				<img id="p4z1" onclick=Alert.zoneRender(sector.p4.z1) class="z1"></img>
+				<img id="p4z2" onclick=Alert.zoneRender(sector.p4.z2) class="z2"></img>
+				<img id="p4z3" onclick=Alert.zoneRender(sector.p4.z3) class="z3"></img>
+				<img id="p4z4" onclick=Alert.zoneRender(sector.p4.z4) class="z4"></img>
+			</div>
+			<div id="p5_div" class="sector p5">
+				<img id="p5" onclick=Alert.planetRender(sector.p5) class="sector"></img>
+				<p id="p5_title" onclick=Alert.planetRender(sector.p5) class="ptitle5 rising">Baphomet Rising</p>
+				<img id="p5z1" onclick=Alert.zoneRender(sector.p5.z1) class="dz1"></img>
+				<img id="p5z2" onclick=Alert.zoneRender(sector.p5.z2) class="dz2"></img>
+				<img id="p5z3" onclick=Alert.zoneRender(sector.p5.z3) class="dz3"></img>
+				<img id="p5z4" onclick=Alert.zoneRender(sector.p5.z4) class="dz4"></img>
+				<img id="p5z5" onclick=Alert.zoneRender(sector.p5.z5) class="dz5"></img>
+				<img id="p5z6" onclick=Alert.zoneRender(sector.p5.z6) class="dz6"></img>
+				<img id="p5z7" onclick=Alert.zoneRender(sector.p5.z7) class="dz7"></img>
+			</div>
+		</div>
+	</body>
+	
+</html>

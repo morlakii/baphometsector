@@ -1,0 +1,71 @@
+
+a:link{color: #FFFF00;}
+a:visited{color: #AFAF00;}
+a.top{font-size: 16px;}
+
+nav{position:fixed;	top:0px; left -0px;	font-size: 36px;		background-color: black; z-index:2; box-shadow: 1px 1px 20px 14px black;}
+
+p.fixed{position:fixed;left:20px;	top:30px;	z-index:2;	box-shadow: 20px 20px 0px black;}
+p.archiveTitle{font-family:"Arial Black", Gadget, sans-serif;	background-color: black;	color: #B0B0B0;	font-size:40px;	font-weight:bold;	box-shadow: 20px 20px 0px black;}
+
+p.ptitle1{position:absolute;	left:60px;	bottom:-50px;	background-color: black;	box-shadow: 1px 1px 50px 20px black;}
+p.ptitle2{position:absolute;	left:110px;	bottom:-50px;	background-color: black;	box-shadow: 1px 1px 50px 20px black;}
+p.ptitle3{position:absolute;	left:100px;	bottom:-50px;	background-color: black;	box-shadow: 1px 1px 50px 20px black;}
+p.ptitle4{position:absolute;	left:120px;	bottom:-50px;	background-color: black;	box-shadow: 1px 1px 50px 20px black;}
+p.ptitle5{position:absolute;	left:48px;	bottom:-150px;	background-color: black;	box-shadow: 1px 1px 50px 20px black; font-family:"Lycanthrope";	color: Red;	font-size: 28px;	font-weight:bold;}
+
+div.overview{position:absolute;	width:1800px; height:1600px;}
+div.sector{position:absolute;	width:300px; height:300px;}
+div.planet{position:absolute;	width:100%; height:20%;}
+img.sector{position:absolute;	width:100%; height:100%;}
+img.planet{position:absolute;	width:100%;z-index:0}
+
+div.p1{left:150px;	top:150px;}
+div.p2{left:150px;	top:900px;}
+div.p3{left:1200px;	top:150px;}
+div.p4{left:1200px;	top:900px;}
+div.p5{left:675px;	top:500px;}
+
+img.z1{width:25%;	position:absolute;	left:-30px;	top:-30px;}
+img.z2{width:25%;	position:absolute;	right:-30px;	top:-30px;}
+img.z3{width:25%;	position:absolute;	left:-30px;	bottom:-30px;}
+img.z4{width:25%;	position:absolute;	right:-30px;	bottom:-30px;}
+
+img.dz1{width:25%;	position:absolute;	left:110px;		top:275px;}
+img.dz2{width:25%;	position:absolute;	left:-25px;		top:225px;}
+img.dz3{width:25%;	position:absolute;	right:-25px;	top:225px;}
+img.dz4{width:25%;	position:absolute;	left:-50px;		top:75px;}
+img.dz5{width:25%;	position:absolute;	right:-50px;	top:75px;}
+img.dz6{width:25%;	position:absolute;	left:20px;		top:-50px;}
+img.dz7{width:25%;	position:absolute;	right:20px;		top:-50px;}
+
+th,td{padding:15px;}
+
+body{font-family:"Arial Black", Gadget, sans-serif;	background-color: black;	color: #B0B0B0;	font-size: 20px;	font-weight:bold;	box-shadow: 10px 10px 5px black;}
+
+
+@font-face {
+    font-family: "Lycanthrope"; /*a name to be used later*/
+    src: url("Lycanthrope.ttf"); /*URL to font*/
+}
+
+
+#dialogoverlay{	display: none;	opacity: .8;	position: fixed;	top: 0px;	left: 0px;	background: #FFF;	width: 100%;	z-index: 10;}
+
+#dialogbox{	display: none;	position: fixed;	background: #000;	border-radius:7px; 	width:550px;	z-index: 10;}
+
+#dialogbox > div{ background:#FFF; margin:8px; z-index:3}
+#dialogbox > div > #dialogboxhead{ background: #666; font-size:30px; padding:10px; color:#CCC;z-index:3}
+#dialogbox > div > #dialogboxbody{ background:#333; padding:20px; color:#FFF; z-index:3}
+#dialogbox > div > #dialogboxbonusdescription{ background:#333; padding:20px; color:#CCC; font-size:16px;z-index:3}
+#dialogbox > div > #dialogboxfoot{ background: #666; padding:10px; text-align:right; z-index:3}
+
+
+img.dialog{vertical-align:"middle";}
+
+#spacebg {
+	background-image: url(bg.jpg);
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
